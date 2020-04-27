@@ -1,7 +1,7 @@
 const { join } = require("path");
 
 module.exports = {
-  pathPrefix: `/site`,
+  pathPrefix: `/gatsby-client-with-prefix`,
   siteMetadata: {
     title: "My Site",
     titleTemplate: "%s · Site",

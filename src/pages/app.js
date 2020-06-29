@@ -4,7 +4,7 @@ import { Router } from "@reach/router";
 
 export default function AppPage() {
   return (
-    <Router>
+    <Router basepath={__PATH_PREFIX__}>
       <App path="/app" />
       <Contact path="/app/contact" />
     </Router>

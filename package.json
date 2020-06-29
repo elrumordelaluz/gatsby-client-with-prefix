@@ -5,9 +5,9 @@
   "author": "Lionel Tzatzkin <elrumordelaluz@hotmail.com> (https://elrumordelaluz.com/)",
   "license": "MIT",
   "dependencies": {
-    "gatsby": "2.20.29",
-    "gatsby-plugin-create-client-paths": "2.2.3",
-    "gatsby-source-filesystem": "2.2.4",
+    "gatsby": "2.23.11",
+    "gatsby-plugin-create-client-paths": "2.3.6",
+    "gatsby-source-filesystem": "2.3.14",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
@@ -20,6 +20,6 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "gh-pages": "2.2.0"
+    "gh-pages": "3.1.0"
   }
 }
